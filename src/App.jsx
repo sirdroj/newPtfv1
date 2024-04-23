@@ -4,17 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Intro from './components/Intro'
+import FeaturedProjects from './components/FeaturedProjects'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className=' m-0 bg-primary font-bebas h-full' >
+    <div className=' m-0  font-bebas h-full' >
         <Navbar />
       <div className=' mx-28'>
         <hr className=' text-secondary mx-4'/>
         <Intro />
-
+        <FeaturedProjects />
       </div>
 
     </div>
