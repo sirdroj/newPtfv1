@@ -5,17 +5,21 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Intro from './components/Intro'
 import FeaturedProjects from './components/FeaturedProjects'
+import AboutMe1 from './components/AboutMe1'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className=' m-0  font-bebas h-full' >
+    <div className='   font-bebas h-full' >
         <Navbar />
-      <div className=' mx-28'>
-        <hr className=' text-secondary mx-4'/>
+      <div className=' lg:mx-28 px-4'>
+        <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
         <Intro />
+        <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
         <FeaturedProjects />
+        <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
+        <AboutMe1 />
       </div>
 
     </div>
