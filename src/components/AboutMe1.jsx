@@ -7,7 +7,7 @@ const AboutMe1 = () => {
                 About Me
             </div>
             <div className='lg:w-[1800px] lg:px-3 font-manrope'>
-                <h1 className=' lg:text-3xl text-xl text-LightBlue mb-4'>
+                <h1 className=' lg:text-3xl text-xl text-LightBlue mb-4 lg:block hidden'>
                     I am a Software engineer based in Bangalore.
                 </h1>
                 <p className=" mb-12 text-lg text-secondary">
