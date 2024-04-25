@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Intro from './components/Intro'
 import FeaturedProjects from './components/FeaturedProjects'
 import AboutMe1 from './components/AboutMe1'
+import Contact from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,8 @@ function App() {
         <FeaturedProjects />
         <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
         <AboutMe1 />
+        <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
+        <Contact />
       </div>
 
     </div>

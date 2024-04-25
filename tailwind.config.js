@@ -17,6 +17,7 @@ export default {
         'secondary': '#999FBB',
         'white': '#FFFFFF',
         'LightBlue': '#A8BAFF',
+        'LightBlue2': '#B9BDD6',
         'highGreen': '#D3E97A',
         'danger': '#dc3545',
         'matblue2': '#CBD0EF',
