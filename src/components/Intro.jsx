@@ -2,9 +2,9 @@ import React from 'react'
 
 const Intro = () => {
     return (
-        <div className='lg:flex justify-between w-full item-center h-screen mb-16'>
+        <div className='lg:flex justify-between w-full item-center  mb-5'>
 
-            <div className=' lg:my-36 my-10  lg:w-2/5 w-full'>
+            <div className=' lg:my-16 my-5  lg:w-2/5 w-full'>
                 <div className='text-LightBlue font-normal lg:text-8xl text-6xl'>
                     <h1>HI, I AM </h1>
                     <hi>AMAN SHARMA</hi>
@@ -23,8 +23,7 @@ const Intro = () => {
                     </a>
                 </div>
             </div>
-
-            <div className='lg:w-2/5 lg:py-10 '>
+            <div className='lg:w-2/4 lg:py-10 lg:mt-0 '>
                 <img src='hero2.png' className='w-full ' />
             </div>
         </div>
