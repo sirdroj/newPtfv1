@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <div className=' w-full lg:px-14 px-4 pt-6 pb-2 text-secondary flex justify-between items-center'>
-      <div className=' text-[32px] '>Aman Sharma</div>
+      <div  className=' text-[32px] '><Link to={"/"} >Aman Sharma</Link></div>
       <div className=' text-base lg:block hidden'>
         <a className='mx-4 cursor-pointer'>Work</a>
-        <a className='mx-4 cursor-pointer'>About</a>
+        <a className='mx-4 cursor-pointer'><Link to={"/about"} >About</Link></a>
         <a className=' ml-4 cursor-pointer'> Contact</a>
       </div>
       <div className='mr-2 lg:hidden'>
