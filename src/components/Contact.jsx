@@ -23,7 +23,7 @@ const Contact = () => {
     <div className=" text-LightBlue h-screen w-full">
       <div className="wrapper lg:flex mt-14 w-full">
         <div className="links lg:w-2/4 px-2">
-          <h1 className=" text-7xl">Let’s connect</h1>
+          <h1 className=" lg:text-7xl text-5xl">Let’s connect</h1>
           <h3 className=" font-manrope text-lg text-secondary mt-4"> Say hellow at <span className="text-highGreen">developeras1999@gmail.com</span></h3>
           <h3 className=" font-manrope text-lg text-secondary mt-2"> For more info, here’s my <span className=" text-highGreen">resume</span></h3>
 
