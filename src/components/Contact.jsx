@@ -17,15 +17,18 @@ const Contact = () => {
     window.open(mailtoUrl);
   };
 
-
+  const openPdfInNewTab = () => {
+    const pdfUrl = "/AmanResume.pdf";
+    window.open(pdfUrl, '_blank');
+  };
 
   return (
     <div className=" text-LightBlue h-screen w-full lg:pt-14" id="contact">
       <div className="wrapper lg:flex  w-full">
         <div className="links lg:w-2/4 px-2">
           <h1 className=" lg:text-7xl text-5xl">Let’s connect</h1>
-          <h3 className=" font-manrope text-lg text-secondary mt-4"> Say hellow at <span className="text-highGreen">developeras1999@gmail.com</span></h3>
-          <h3 className=" font-manrope text-lg text-secondary mt-2"> For more info, here’s my <span className=" text-highGreen">resume</span></h3>
+          <h3 className=" font-manrope text-lg text-secondary mt-4"> Say hellow at <span className="text-highGreen cursor-pointer" onClick={handleSendEmail}>developeras1999@gmail.com</span></h3>
+          <h3 className=" font-manrope text-lg text-secondary mt-2"> For more info, here’s my <span className=" text-highGreen cursor-pointer" onClick={openPdfInNewTab}>resume</span></h3>
 
           <div className="icons flex mt-10">
             <a href="https://www.linkedin.com/in/aman-sharma-5aa4481a2/" className="mr-3" target="_blank">

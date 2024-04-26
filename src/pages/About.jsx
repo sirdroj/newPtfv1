@@ -1,6 +1,9 @@
 import React from 'react'
-
 const About = () => {
+    const openPdfInNewTab = () => {
+        const pdfUrl = "/AmanResume.pdf";
+        window.open(pdfUrl, '_blank');
+      };
     return (
         <div className='lg:mx-28 px-4'>
 
@@ -12,7 +15,7 @@ const About = () => {
                     <h1 className='text-LightBlue  lg:text-3xl text-2xl'> I am a Software engineer based in Bangalore. </h1>
                     <p className=' text-secondary text-base mt-4'> I am a Software engineer based in Bangalore looking for exciting opportunities. Likes to focus on accessibility when developing. Passionate and curious about solving problems. Currently, I’m exploring Reactjs , Node.js , Python and a bit of Designing. While I am not programming, I enjoy playing football, photography and playing COD. Learning more to improve skill.</p>
                     <div className='flex mt-12'>
-                        <a className="mx-2 text-gray-600 lg:text-base w-max text-sm font-bold font-manrope bg-primary rounded-full p-2 px-6 text-center items-center align-middle flex"><h1>DOWNLOAD RESUME</h1> <div className='ml-3 bg-black rounded-full w-2 h-2 items-center flex'></div></a>
+                        <a onClick={openPdfInNewTab} className=" cursor-pointer mx-2 text-gray-600 lg:text-base w-max text-sm font-bold font-manrope bg-primary rounded-full p-2 px-6 text-center items-center align-middle flex"><h1>DOWNLOAD RESUME</h1> <div className='ml-3 bg-black rounded-full w-2 h-2 items-center flex'></div></a>
                         <a target='_blank' href="https://www.linkedin.com/in/aman-sharma-5aa4481a2/" className="mx-2 bg-primary rounded-full p-2"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6.644 9.59602C8.2552 9.59602 9.56134 8.28988 9.56134 6.67869C9.56134 5.06749 8.2552 3.76135 6.644 3.76135C5.0328 3.76135 3.72667 5.06749 3.72667 6.67869C3.72667 8.28988 5.0328 9.59602 6.644 9.59602Z" fill="white" />
                             <path d="M12.316 11.8067V27.992H17.3413V19.988C17.3413 17.876 17.7387 15.8307 20.3573 15.8307C22.94 15.8307 22.972 18.2453 22.972 20.1213V27.9933H28V19.1173C28 14.7573 27.0613 11.4067 21.9653 11.4067C19.5187 11.4067 17.8787 12.7493 17.208 14.02H17.14V11.8067H12.316ZM4.12666 11.8067H9.16V27.992H4.12666V11.8067Z" fill="white" />
