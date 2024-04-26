@@ -2,14 +2,24 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+  const smoothScroll = (target) => {
+    const element = document.querySelector(target);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const [navbarOpen, setNavbarOpen] = useState(false);
+
   return (
-    <div className=' w-full lg:px-14 px-4 pt-6 pb-2 text-secondary flex justify-between items-center'>
-      <div  className=' text-[32px] '><Link to={"/"} >Aman Sharma</Link></div>
-      <div className=' text-base lg:block hidden'>
-        <a className='mx-4 cursor-pointer'>Work</a>
-        <a className='mx-4 cursor-pointer'><Link to={"/about"} >About</Link></a>
-        <a className=' ml-4 cursor-pointer'> Contact</a>
+    <div className='w-full lg:px-14 px-4 pt-6 pb-2 text-secondary flex justify-between items-center'>
+      <div className='text-[32px]'>
+        <Link to={"/"}>Aman Sharma</Link>
+      </div>
+      <div className='text-base lg:block hidden'>
+        <a className='mx-4 cursor-pointer' onClick={() => smoothScroll('#work')}>Work</a>
+        <a className='mx-4 cursor-pointer'><Link to={"/about"}>About</Link></a>
+        <a className='ml-4 cursor-pointer' onClick={() => smoothScroll('#contact')}>Contact</a>
       </div>
       <div className='mr-2 lg:hidden'>
         <button
@@ -41,28 +51,18 @@ const Navbar = () => {
       >
         <ul className="w-full flex flex-col items-start">
           <li className="nav-li">
-            <a
-              href="/"
-              className="nav-link"
-              onClick={(e) => {
-                e.preventDefault();
+          <Link onClick={(e) => {
+                // e.preventDefault();
                 setNavbarOpen(false);
               }}
-            >
-              Home
-            </a>
+               to={"/"} >Home</Link>
           </li>
           <li className="nav-li">
-            <a
-              href="/"
-              className="nav-link"
-              onClick={(e) => {
-                e.preventDefault();
+          <Link onClick={(e) => {
+                // e.preventDefault();
                 setNavbarOpen(false);
               }}
-            >
-              About
-            </a>
+               to={"/about"} >About</Link>
           </li>
         </ul>
       </nav>
