@@ -39,7 +39,7 @@ const About = () => {
                     <div className='flex mt-12 w-full flex-wrap'>
                         <div className='text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2'>Python</div>
                         <div className='text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2'>Ds and Algo</div>
-                        <div className='text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2'>Python</div>
+                        <div className='text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2'>Django</div>
                         <div className='text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2'>Node.Js</div>
                         <div className='text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2'>React</div>
                         <div className='text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2'>Figma</div>
