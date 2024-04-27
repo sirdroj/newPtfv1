@@ -5,14 +5,16 @@ import Contact from "./components/Contact";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import { Outlet } from "react-router-dom";
+import Navbar2 from "./components/NavbarPg";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const [pg,setpg]=useState(0)
   return (
     <div className="   font-bebas h-full">
-      <Navbar />  
-      <Outlet />
+      {/* <Navbar />   */}
+      <Navbar2 setpg={setpg} />
+      {/* <Outlet /> */}
+      {pg==0?<Home/>:<About />}
       <div className=" lg:mx-28 px-4">
         <Contact />
       </div>
