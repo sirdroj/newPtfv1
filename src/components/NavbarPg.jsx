@@ -54,15 +54,16 @@ const Navbar2 = ({setpg}) => {
           <Link onClick={(e) => {
                 // e.preventDefault();
                 setNavbarOpen(false);
+                setpg(0);
               }}
-               to={"/"} >Home</Link>
+                 >Home</Link>
           </li>
           <li className="nav-li">
           <Link onClick={(e) => {
                 // e.preventDefault();
                 setNavbarOpen(false);
-              }}
-               to={"/about"} >About</Link>
+                setpg(1)
+              }}>About</Link>
           </li>
         </ul>
       </nav>
