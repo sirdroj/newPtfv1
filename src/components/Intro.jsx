@@ -13,7 +13,7 @@ const Intro = () => {
   };
   return (
     <div className="flex flex-col lg:flex-row justify-between w-full item-center h-screen mb-16 px-1">
-      <div className=" lg:my-36 my-10  lg:w-2/5 w-full">
+      <div className=" lg:my-36 mt-10 mb-7  lg:w-2/5 w-full">
         <div className="text-LightBlue font-normal lg:text-8xl text-6xl">
           <h1>HI, I AM </h1>
           <hi>AMAN SHARMA</hi>
