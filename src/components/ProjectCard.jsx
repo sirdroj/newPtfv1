@@ -3,10 +3,10 @@ import img1 from "../images/work.png";
 const ProjectCard = ({ data }) => {
   return (
     <div className="w-full my-14 justify-between lg:flex mb-20">
-      <div className=" lg:w-2/4 p-4 h-auto bg-secondary">
+      <div className=" lg:w-2/4 p-4 h-auto bg-secondary " >
         <a className="rounded-full bg-matblue2 p-1 px-3">Conceptual Work</a>
-        <div className="p-10 py-20 flex items-center justify-center">
-          <img src={data.img} alt="" className="lg:h-[350px]"/>
+        <div className="p-5 py-7 flex items-center justify-center">
+          <img src={data.img} alt="" className="lg:h-[350px] w-max "/>
         </div>
       </div>
       <div className="lg:w-2/4 lg:pl-12 lg:mt-0 mt-10 pb-2">
