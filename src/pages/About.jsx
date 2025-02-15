@@ -8,30 +8,39 @@ const experience = [
     company: "Marathon Trends Advisory Private Limited",
     start: "May 2024",
     end: "Present",
-    location:"Mumbai , India",
+    location: "Mumbai , India",
     discription:
       "I developed AI-powered financial applications like Sentient, a stocks exploration and backtesting tool, and OMS, an Order Management System. By optimizing both the backend and frontend using FastAPI, Django, and React.js, I reduced manual workflows by 50%. I also managed server deployment on Hostinger VPS, ensuring 99.9% uptime. Additionally, I built a finance-specialized chatbot using RAG models, OpenAI, and ChromaDB, enhancing query resolution by 70%. To improve real-time financial insights, I implemented web scraping techniques, which increased sentiment analysis accuracy to 90%.",
   },
   {
-    title:"Full Stack Developer",
-    company:"Rays Software Solution",
-    start:"Jan 2024",
-    end:"May 2024",
-    location:"Kolkata, India",
-    discription:"I developed Cart and Watchlist features for a global e-commerce platform, reducing cart abandonment by 25%. Additionally, I built frontends for over five e-commerce applications, improving load time by 20%. By integrating APIs in collaboration with cross-functional teams, I streamlined development processes, reducing development time by 30%. I also deployed applications on Vercel, Netlify, and Firebase, ensuring 99% uptime."
-
+    title: "Full Stack Developer",
+    company: "Rays Software Solution",
+    start: "Jan 2024",
+    end: "May 2024",
+    location: "Kolkata, India",
+    discription:
+      "I developed Cart and Watchlist features for a global e-commerce platform, reducing cart abandonment by 25%. Additionally, I built frontends for over five e-commerce applications, improving load time by 20%. By integrating APIs in collaboration with cross-functional teams, I streamlined development processes, reducing development time by 30%. I also deployed applications on Vercel, Netlify, and Firebase, ensuring 99% uptime.",
   },
   {
-    title:"Freelance Software Developer",
-    start:"Jan 2023",
-    end:"Dec 2023",
-    location:"Remote",
-    discription:"I delivered custom web applications across various industries, including a dynamic e-commerce platform with real-time inventory tracking that boosted online sales by 40%. I also built a portfolio website using React.js, enhancing SEO rankings by 20%. Additionally, I developed a blogging platform with Firebase authentication, increasing user engagement by 30%."
-  }
+    title: "Freelance Software Developer",
+    start: "Jan 2023",
+    end: "Dec 2023",
+    location: "Remote",
+    discription:
+      "I delivered custom web applications across various industries, including a dynamic e-commerce platform with real-time inventory tracking that boosted online sales by 40%. I also built a portfolio website using React.js, enhancing SEO rankings by 20%. Additionally, I developed a blogging platform with Firebase authentication, increasing user engagement by 30%.",
+  },
 ];
-const tecstack=[
-  "Python","Ds and Algo","Pandas","React","Tailwind CSS","Figma","C++"
-]
+const tecstack = [
+  "Python",
+  "Ds and Algo",
+  "Pandas",
+  "React",
+  "Tailwind CSS",
+  "Figma",
+  "C++",
+  "Django",
+  "FastAPI",
+];
 
 const About = () => {
   const openPdfInNewTab = () => {
@@ -121,20 +130,30 @@ const About = () => {
         <div className="lg:w-2/4  font-manrope">
           <p className=" text-secondary text-base mt-4">
             {" "}
-            I am always looking to add more skills.Morbi egestas neque eu
-            blandit fermentum. Nulla ac lobortis ligula. Pellentesque ac ex at
-            purus faucibus tristique ut et dolor.{" "}
+            I have a well-rounded tech stack covering frontend, backend, and
+            data-driven development. Proficient in Python and C++, I have a
+            strong grasp of Data Structures and Algorithms (DSA) for efficient
+            problem-solving. I utilize FastAPI and Django to build scalable,
+            high-performance backend systems, while Pandas helps me handle data
+            manipulation and analysis. On the frontend, I work with React and
+            Tailwind CSS, creating dynamic and responsive interfaces,
+            complemented by Figma for intuitive UI/UX design. This diverse skill
+            set enables me to develop robust, efficient applications across
+            finance, AI, and web development, ensuring seamless performance and
+            user experience.{" "}
           </p>
           <div className="flex mt-12 w-full flex-wrap">
-          {tecstack.map((item,idx)=>(<div className="text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2">
-              {item}
-            </div>))}
+            {tecstack.map((item, idx) => (
+              <div className="text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2">
+                {item}
+              </div>
+            ))}
           </div>
         </div>
       </section>
       <hr className="lg:-mx-28" />
       <Experience_section />
-     
+
       <hr className="lg:-mx-28" />
     </div>
   );

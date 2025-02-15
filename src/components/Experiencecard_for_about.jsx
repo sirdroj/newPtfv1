@@ -12,7 +12,7 @@ const Experiencecard_for_about = ({job}) => {
           {job.start} - {job.end}
         </h1>
       </div>
-      <h1 className=' text-highGreen text-lg'>{job.company}</h1>
+      <h1 className=' text-highGreen text-lg'>{job.company}  {job.location &&<span className="text-gray-500">| {job.location}</span>}</h1>
 
       <p className=" text-secondary text-base mt-4">
         {" "}
