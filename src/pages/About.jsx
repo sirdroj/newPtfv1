@@ -29,6 +29,9 @@ const experience = [
     discription:"I delivered custom web applications across various industries, including a dynamic e-commerce platform with real-time inventory tracking that boosted online sales by 40%. I also built a portfolio website using React.js, enhancing SEO rankings by 20%. Additionally, I developed a blogging platform with Firebase authentication, increasing user engagement by 30%."
   }
 ];
+const tecstack=[
+  "Python","Ds and Algo","Pandas","React","Tailwind CSS","Figma","C++"
+]
 
 const About = () => {
   const openPdfInNewTab = () => {
@@ -123,45 +126,15 @@ const About = () => {
             purus faucibus tristique ut et dolor.{" "}
           </p>
           <div className="flex mt-12 w-full flex-wrap">
-            <div className="text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2">
-              Python
-            </div>
-            <div className="text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2">
-              Ds and Algo
-            </div>
-            <div className="text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2">
-              Django
-            </div>
-            <div className="text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2">
-              Node.Js
-            </div>
-            <div className="text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2">
-              React
-            </div>
-            <div className="text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2">
-              Figma
-            </div>
-            <div className="text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2">
-              Tailwind Css
-            </div>
+          {tecstack.map((item,idx)=>(<div className="text-secondary border-secondary border-[1px] rounded-full p-2 px-4 mx-2 my-2">
+              {item}
+            </div>))}
           </div>
         </div>
       </section>
       <hr className="lg:-mx-28" />
       <Experience_section />
-      {/* <section
-        className="lg:flex justify-between w-full item-center  lg:mb-20 mb-16 lg:pt-36 pt-12"
-        id="work"
-      >
-        <div className="  lg:w-2/5 w-full mb-2">
-          <h1 className="lg:text-8xl text-6xl text-LightBlue">My Experience</h1>
-        </div>
-        <div className="lg:w-2/4  font-manrope">
-          
-          {experience.map((item)=>(<Experiencecard_for_about  job={item}/>))}
-         
-        </div>
-      </section> */}
+     
       <hr className="lg:-mx-28" />
     </div>
   );
