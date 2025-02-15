@@ -7,6 +7,8 @@ import About from "./pages/About";
 import { Outlet } from "react-router-dom";
 import Navbar2 from "./components/NavbarPg";
 
+
+
 function App() {
   const [pg,setpg]=useState(0)
   return (
