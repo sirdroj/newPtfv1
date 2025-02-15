@@ -14,7 +14,7 @@ function App() {
       {/* <Navbar />   */}
       <Navbar2 setpg={setpg} />
       {/* <Outlet /> */}
-      {pg==0?<Home/>:<About />}
+      {pg==0?<Home setpg={setpg}/>:<About  setpg={setpg}/>}
       <div className=" lg:mx-28 px-4">
         <Contact />
       </div>
