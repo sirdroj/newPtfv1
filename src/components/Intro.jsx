@@ -84,7 +84,7 @@ const Intro = () => {
       </div>
 
       <div className="lg:w-2/4 lg:py-10 flex flex-col-reverse h-min">
-        <img src="hero2.png" className="" />
+        <img src="hero.svg" className="" />
       </div>
     </div>
   );
