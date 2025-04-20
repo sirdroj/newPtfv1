@@ -10,7 +10,17 @@ const projects=[
         livelink:"https://vite-chatapp.vercel.app/",
         gitlink:"https://github.com/sirdroj/vite_chatapp",
         img:"./chatapp.png"
-    }
+    },
+    {
+        h1:"Interviewer bot",
+        p:"The app is built using Python, Streamlit, and Hugging Face Transformers, leveraging the DeepSeek-AI R1 model to simulate AI-driven technical interviews. Its goal is to help users practice for ML and SDE roles by providing realistic interview questions and real-time feedback..",
+        year:"2025",
+        role:"Developer",
+        livelink:"https://aboutrepl-oggtwskbcc3kiegbgdfswu.streamlit.app/",
+        gitlink:"https://github.com/sirdroj/interview_bot",
+        img:"./interviewBot.png"
+    },
+
 ]
 
 const FeaturedProjects = () => {

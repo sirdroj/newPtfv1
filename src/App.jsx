@@ -12,7 +12,7 @@ import Navbar2 from "./components/NavbarPg";
 function App() {
   const [pg,setpg]=useState(0)
   return (
-    <div className="   font-bebas h-full">
+    <div className=" bg-gray-100  font-bebas h-full">
       {/* <Navbar />   */}
       <Navbar2 setpg={setpg} />
       {/* <Outlet /> */}
