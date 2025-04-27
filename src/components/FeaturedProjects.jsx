@@ -13,7 +13,7 @@ const projects=[
     },
     {
         h1:"Interviewer bot",
-        p:"The app is built using Python, Streamlit, and Hugging Face Transformers, leveraging the DeepSeek-AI R1 model to simulate AI-driven technical interviews. Its goal is to help users practice for ML and SDE roles by providing realistic interview questions and real-time feedback..",
+        p:"I developed a Voice-to-Voice Interview Bot using Python and Streamlit, integrating Groq APIs for LLM operations. The bot leverages DeepSeek for language understanding, Whisper for speech-to-text, and PlayAI-TTS for text-to-speech conversion. This real-time system enables seamless, natural conversations, showcasing advanced AI integration and user-friendly voice interaction capabilities.",
         year:"2025",
         role:"Developer",
         // livelink:"https://aboutrepl-oggtwskbcc3kiegbgdfswu.streamlit.app/",
