@@ -16,7 +16,7 @@ const tecstack = [
 
 const About = () => {
   const openPdfInNewTab = () => {
-    const pdfUrl = "/Aman_sharma_resume.pdf";
+    const pdfUrl = "/AMAN SHARMA (4).pdf";
     window.open(pdfUrl, "_blank");
   };
   return (

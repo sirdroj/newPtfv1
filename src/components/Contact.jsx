@@ -18,7 +18,7 @@ const Contact = () => {
   };
 
   const openPdfInNewTab = () => {
-    const pdfUrl = "/Aman_sharma_resume.pdf";
+    const pdfUrl = "/AMAN_SHARMA.pdf";
     window.open(pdfUrl, '_blank');
   };
 

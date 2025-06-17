@@ -3,6 +3,7 @@ import Intro from '../components/Intro'
 import FeaturedProjects from '../components/FeaturedProjects'
 import AboutMe1 from '../components/AboutMe1'
 import Experience_section from '../components/Experience_section'
+import Cirtifications from '../components/Cirtifications'
 
 const Home = ({setpg}) => {
   return (
@@ -15,6 +16,8 @@ const Home = ({setpg}) => {
         <FeaturedProjects />
         <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
         <AboutMe1 setpg={setpg}/>
+        <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
+        <Cirtifications />
         <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
       </div>
   )
