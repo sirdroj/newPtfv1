@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { openPdfInNewTab } from "./Intro"; // Assuming you have a utility function to open PDF in a new tab
 // import "./Contact.scss"
 // import instaicon from "./icons/instagram_1384015.png"
 // import resume from "../../others/resume.pdf"
@@ -17,10 +18,7 @@ const Contact = () => {
     window.open(mailtoUrl);
   };
 
-  const openPdfInNewTab = () => {
-    const pdfUrl = "/AMAN_SHARMA.pdf";
-    window.open(pdfUrl, '_blank');
-  };
+
 
   return (
     <div className=" text-LightBlue h-screen w-full lg:pt-14" id="contact">

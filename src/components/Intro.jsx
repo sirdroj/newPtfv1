@@ -1,10 +1,10 @@
 import React from "react";
 
+export const openPdfInNewTab = () => {
+  const pdfUrl = "/resume_aman.pdf";
+  window.open(pdfUrl, "_blank");
+};
 const Intro = () => {
-  const openPdfInNewTab = () => {
-    const pdfUrl = "/AMAN_SHARMA.pdf";
-    window.open(pdfUrl, "_blank");
-  };
   const smoothScroll = (target) => {
     const element = document.querySelector(target);
     if (element) {
