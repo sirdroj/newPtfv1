@@ -19,8 +19,7 @@ const Intro = () => {
           <hi>AMAN SHARMA</hi>
         </div>
         <p className="font-medium text-base lg:text-lg text-secondary font-manrope w-full">
-          A Bangalore based Software engineer passionate about building
-          accessible and user friendly Software.
+          A software developer and AI enthusiast with hands-on experience in building full-stack applications and machine learning solutions. I love turning complex ideas into real-world products.
         </p>
         <div className="flex mt-10 pb-">
           {/* <a

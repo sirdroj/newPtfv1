@@ -7,7 +7,7 @@ import Cirtifications from '../components/Cirtifications'
 
 const Home = ({setpg}) => {
   return (
-    <div className=' lg:mx-28 px-4'>
+    <div className=' lg:mx-28 px-4 pb-10'>
         <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
         <Intro />
         <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
@@ -18,7 +18,8 @@ const Home = ({setpg}) => {
         <AboutMe1 setpg={setpg}/>
         <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
         <Cirtifications />
-        <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
+        --
+        {/* <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/> */}
       </div>
   )
 }
