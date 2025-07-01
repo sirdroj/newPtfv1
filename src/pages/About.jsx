@@ -15,10 +15,7 @@ const tecstack = [
 ];
 
 const About = () => {
-  const openPdfInNewTab = () => {
-    const pdfUrl = "/AMAN SHARMA (4).pdf";
-    window.open(pdfUrl, "_blank");
-  };
+  
   return (
     <div className="lg:mx-28 px-4">
       <section className="lg:flex justify-between w-full item-center  lg:mb-20 mb-20 lg:pt-36 pt-12">

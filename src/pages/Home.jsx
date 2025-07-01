@@ -18,7 +18,6 @@ const Home = ({setpg}) => {
         <AboutMe1 setpg={setpg}/>
         <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/>
         <Cirtifications />
-        --
         {/* <hr className=' text-secondary lg:-mx-28 -px-4 justify-center'/> */}
       </div>
   )
