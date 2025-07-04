@@ -1,7 +1,7 @@
 import React from "react";
 
 export const openPdfInNewTab = () => {
-  const pdfUrl = "/resume_aman.pdf";
+  const pdfUrl = "/AMAN_SHARMA_Resume.pdf";
   window.open(pdfUrl, "_blank");
 };
 const Intro = () => {
