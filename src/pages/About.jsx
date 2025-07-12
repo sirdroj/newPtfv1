@@ -2,6 +2,10 @@ import React from "react";
 import Experiencecard_for_about from "../components/Experiencecard_for_about";
 import Experience_section from "../components/Experience_section";
 
+export const openPdfInNewTab = () => {
+  const pdfUrl = "/AMAN_SHARMA_Resume.pdf";
+  window.open(pdfUrl, "_blank");
+};
 const tecstack = [
   "Python",
   "Ds and Algo",
