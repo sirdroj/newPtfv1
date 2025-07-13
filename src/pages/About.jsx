@@ -3,10 +3,10 @@ import Experiencecard_for_about from "../components/Experiencecard_for_about";
 import Experience_section from "../components/Experience_section";
 
 export const openPdfInNewTab = () => {
-  const pdfUrl = "/AMAN_SHARMA_Resume.pdf";
+  const pdfUrl = "/resume_aman_.pdf";
   window.open(pdfUrl, "_blank");
 };
-const tecstack = [
+export const tecstack = [
   "Python",
   "Ds and Algo",
   "Pandas",
@@ -16,7 +16,9 @@ const tecstack = [
   "C++",
   "Django",
   "FastAPI",
+
 ];
+
 
 const About = () => {
   

@@ -1,7 +1,7 @@
 import React from "react";
 
 export const openPdfInNewTab = () => {
-  const pdfUrl = "/AMAN_SHARMA_Resume.pdf";
+  const pdfUrl = "/resume_aman_.pdf";
   window.open(pdfUrl, "_blank");
 };
 const Intro = () => {
@@ -19,7 +19,7 @@ const Intro = () => {
           <hi>AMAN SHARMA</hi>
         </div>
         <p className="font-medium text-base lg:text-lg text-secondary font-manrope w-full">
-          A software developer and AI enthusiast with hands-on experience in building full-stack applications and machine learning solutions. I love turning complex ideas into real-world products.
+          A  Full-Stack Developer & Machine Learning Engineer with hands-on experience in building full-stack applications and machine learning solutions. I love turning complex ideas into real-world products.
         </p>
         <div className="flex mt-10 pb-">
           {/* <a

@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <div className='text-base lg:block hidden'>
         <a className='mx-4 cursor-pointer' onClick={() => smoothScroll('#work')}>Work</a>
-        <a className='mx-4 cursor-pointer'><Link to={"/about"}>About</Link></a>
+        <a className='mx-4 cursor-pointer'onClick={() => smoothScroll('#aboutme')}>About</a>
         <a className='ml-4 cursor-pointer' onClick={() => smoothScroll('#contact')}>Contact</a>
       </div>
       <div className='mr-2 lg:hidden'>

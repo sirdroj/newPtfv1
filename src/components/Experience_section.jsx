@@ -18,7 +18,7 @@ export const experience = [
     end: "March 2025",
     location: "Mumbai , India",
     discription:
-      "I developed AI-powered financial applications like Sentient, a stocks exploration and backtesting tool, and OMS, an Order Management System. By optimizing both the backend and frontend using FastAPI, Django, and React.js, I reduced manual workflows by 50%. I also managed server deployment on Hostinger VPS, ensuring 99.9% uptime. Additionally, I built a finance-specialized chatbot using RAG models, OpenAI, and ChromaDB, enhancing query resolution by 70%. To improve real-time financial insights, I implemented web scraping techniques, which increased sentiment analysis accuracy to 90%.",
+      "Designed and deployed scalable, real-time financial systems using Python, FastAPI, and PostgreSQL, reducing backtesting latency by 67% and optimizing query performance by 45%. Built robust microservices architecture with Docker and Kubernetes, powering financial APIs and RAG-based chatbots with sub-second response times using LangChain, ChromaDB, and OpenAI. Engineered high-throughput data scraping pipelines with asyncio and aiohttp, processing over 1M daily financial records for sentiment analysis. Enhanced data reliability with automated validation workflows in Pandas and NumPy, boosting accuracy from 70% to 95%. Authored complete API documentation using OpenAPI/Swagger, and ensured 99.2% uptime for services supporting 500+ concurrent users.",
   },
   {
     title: "Full Stack Developer",
@@ -27,7 +27,7 @@ export const experience = [
     end: "April 2024",
     location: "Mumbai,India",
     discription:
-      "I worked on both the front end and back end for global e-commerce clients like SquarePeg and CustoKing. I designed and built the user interface for 5+ e-commerce apps using React.js and Tailwind CSS, focusing on clean design and good user experience. I also worked closely with other teams to integrate APIs and make sure everything ran smoothly across the full stack.",
+      "Collaborated with global e-commerce clients including SquarePeg and CustoKing to develop and maintain full-stack web applications. Built responsive, user-centric frontends for 5+ platforms using React.js, Tailwind CSS, and Next.js, focusing on performance and clean UI design. Integrated secure backend APIs using Django REST Framework, managed databases with PostgreSQL and MongoDB, and implemented user authentication with JWT and OAuth2. Worked closely with cross-functional teams to ensure smooth API integration and full-stack functionality across development and production environments.",
   }
 ];
 
