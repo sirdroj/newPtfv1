@@ -3,7 +3,7 @@ import Experiencecard_for_about from "../components/Experiencecard_for_about";
 import Experience_section from "../components/Experience_section";
 
 export const openPdfInNewTab = () => {
-  const pdfUrl = "/resume_aman_.pdf";
+  const pdfUrl = "/resume_aman.pdf";
   window.open(pdfUrl, "_blank");
 };
 export const tecstack = [
